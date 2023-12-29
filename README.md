@@ -131,3 +131,12 @@ This process starts with a base image, installs Node.js, copies application file
 
 Now, your application is encapsulated in a Docker image. This image can be pushed to a registry like Docker Hub and pulled onto any machine with Docker installed. The deployment process becomes consistent and simplified, eliminating the need for complex release documents.
 
+To check image list run this command:
+
+```
+docker image ls
+```
+
+now you can run the image on different computer and devices, just run this command
+
+``` docker run LearningDocker ```
